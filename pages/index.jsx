@@ -1,9 +1,18 @@
-export default function Home({ vehicle }) {
-  console.log(vehicle);
+import Link from "next/link";
+import SwitchLangues from "../components/Switch/SwitchLangues.jsx";
+import { FormattedMessage } from "react-intl";
+
+export default function Home() {
   return (
     <div>
-      <h1 className="bg-red-400 text-center text-red-800">
-        Notion with Next.js
+      <SwitchLangues />
+      <Link href="/utilitaires">Utilitaires</Link>
+      <h1 className="text-3xl font-bold underline bg-red-800">
+        {" "}
+        <FormattedMessage
+          id="page.home.title"
+          values={{ b: (chunks) => <b>{chunks}</b> }}
+        />
       </h1>
     </div>
   );

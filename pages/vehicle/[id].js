@@ -1,11 +1,25 @@
 import { Client } from "@notionhq/client";
+import { FormattedMessage, useIntl } from "react-intl";
+import { useRouter } from "next/router";
+import Link from "next/link";
 
-const vehicle = ({ vehicle }) => {
-  console.log(vehicle);
-  return <pre>{JSON.stringify(vehicle, null, 2)}</pre>;
-};
+export default function Vehicle({ vehicle }) {
+  const { locales } = useRouter();
 
-export async function getStaticPaths() {
+  return (
+    <div>
+      <h1>
+        <FormattedMessage
+          id="page.home.title"
+          values={{ b: (chunks) => <b>{chunks}</b> }}
+        />
+      </h1>
+      <pre>{JSON.stringify(vehicle, null, 2)}</pre>;
+    </div>
+  );
+}
+
+export async function getStaticPaths({ locale }) {
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
   const databaseId = process.env.NOTION_DATABASE_ID;
   const response = await notion.databases.query({ database_id: databaseId });
@@ -17,12 +31,13 @@ export async function getStaticPaths() {
       params: {
         id: item.id,
       },
+      locale,
     });
   });
 
   return {
     paths,
-    fallback: false,
+    fallback: true,
   };
 }
 
@@ -36,7 +51,7 @@ export async function getStaticProps({ params: { id } }) {
   const horse = response.properties.cheveaux.number;
   const horse_fiscal = response.properties.puissance_fiscale.number;
   const type = response.properties.type.multi_select[0].name;
-  const energie = response.properties.carburant.rich_text[0].text.content;
+  let energie = response.properties.carburant.rich_text[0].text.content;
   const gear_box =
     response.properties.type_boite_vitesse.rich_text[0].text.content;
   const number_doors = response.properties.nombre_porte.number;
@@ -66,5 +81,3 @@ export async function getStaticProps({ params: { id } }) {
     },
   };
 }
-
-export default vehicle;
