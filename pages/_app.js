@@ -5,8 +5,7 @@ import { IntlProvider } from "react-intl";
 
 import en from "../langs/en.json";
 import fr from "../langs/fr.json";
-
-import "../styles/globals.css";
+import Layout from "../components/Layout/Layout";
 
 const messages = {
   en,
@@ -17,7 +16,9 @@ function MyApp({ Component, pageProps }) {
   const { locale } = useRouter();
   return (
     <IntlProvider locale={locale} messages={messages[locale]}>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </IntlProvider>
   );
 }
