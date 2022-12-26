@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Home = () => {
+const PoidLourd = () => {
     return (
         <div>
-            Hello camion
+            PoidLourd
         </div>
     );
 }
 
-export default Home;
+export default PoidLourd;

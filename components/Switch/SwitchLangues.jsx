@@ -17,7 +17,7 @@ const SwitchLangues = () => {
   const [selected, setSelected] = useState("");
 
   return (
-    <div class="absolute inline-block right-6 bottom-24 text-left">
+    <div class="absolute right-6 bottom-24 inline-block text-left">
       {" "}
       <span className="inline-flex w-40 justify-start rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
         {" "}
@@ -60,7 +60,7 @@ const SwitchLangues = () => {
           role="listbox"
         >
           <li
-            className="relative select-none py-2 pl-8 pr-4 text-gray-900 cursor-pointer hover:bg-gray-100"
+            className="relative cursor-pointer select-none py-2 pl-8 pr-4 text-gray-900 hover:bg-gray-100"
             id="option-0"
             tabIndex="-1"
             value="fr"
@@ -70,7 +70,7 @@ const SwitchLangues = () => {
               handleLocaleChange("fr");
             }}
           >
-            <span value="fr" className="block truncate ml-4">
+            <span value="fr" className="ml-4 block truncate">
               Français
             </span>
 
@@ -79,7 +79,7 @@ const SwitchLangues = () => {
             </div>
           </li>
           <li
-            className="relative select-none py-2 pl-8 pr-4 text-gray-900 cursor-pointer hover:bg-gray-100"
+            className="relative cursor-pointer select-none py-2 pl-8 pr-4 text-gray-900 hover:bg-gray-100"
             id="option-0"
             tabIndex="-1"
             value="en"
@@ -89,7 +89,7 @@ const SwitchLangues = () => {
               handleLocaleChange("en");
             }}
           >
-            <span value="en" className="block truncate ml-4">
+            <span value="en" className="ml-4 block truncate">
               Anglais
             </span>
 

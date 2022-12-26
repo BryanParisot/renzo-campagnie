@@ -1,4 +1,15 @@
 {
+  "navigation.header.camion": "Camionette",
+  "navigation.header.engin_chantier": "Engins de chantier",
+  "navigation.header.utilitaire": "Utilitaires",
+  "navigation.header.engin_agricole": "Engins agricoles",
+  "navigation.header.voitures": "Voitures",
+  "navigation.header.benne": "Bennes",
+  "navigation.header.poid_lourd": "Camions",
+  "navigation.header.remorque": "Remorques",
+  "navigation.header.semi_remorque": "Semi-remorques",
+  "navigation.header.tracteur_camion": "Tracteur de camions",
+
   "page.home.head.title": "Next.js i18n example",
   "page.home.head.meta.description": "Next.js i18n example - English",
   "page.home.title": "bienvenue <b>Next.js</b>",

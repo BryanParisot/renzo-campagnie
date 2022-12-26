@@ -1,4 +1,15 @@
 {
+  "navigation.header.camion": "Vans",
+  "navigation.header.engin_chantier": "Construction machines",
+  "navigation.header.utilitaire": "Utilities",
+  "navigation.header.engin_agricole": "Agricultural machinery",
+  "navigation.header.voitures": "Cars",
+  "navigation.header.benne": "Tippers",
+  "navigation.header.poid_lourd": "Trucks",
+  "navigation.header.remorque": "Trailers",
+  "navigation.header.semi_remorque": "Semi-trailers",
+  "navigation.header.tracteur_camion": "Tractor head",
+
   "page.home.head.title": "Next.js i18n example",
   "page.home.head.meta.description": "Next.js i18n example - English",
   "page.home.title": "Welcome to <b>Next.js</b>",

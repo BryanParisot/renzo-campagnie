@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Link href="/utilitaires">Utilitaires</Link>
-      <h1 className="text-3xl font-bold underline bg-red-800">
+      <h1 className="text-3xl font-bold underline bg-primary">
         {" "}
         <FormattedMessage
           id="page.home.title"
