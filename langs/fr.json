@@ -10,8 +10,12 @@
   "navigation.header.semi_remorque": "Semi-remorques",
   "navigation.header.tracteur_camion": "Tracteur de camions",
 
-  "page.home.head.title": "Next.js i18n example",
-  "page.home.head.meta.description": "Next.js i18n example - English",
-  "page.home.title": "bienvenue <b>Next.js</b>",
-  "page.home.description": "You are currently viewing the homepage in English 🚀"
+  "page.home.title": "Votre véhicule d’occasion adapté à vos besoins financiers",
+  "page.home.first_section.title": "Acheter un camion d’occasion",
+  "page.home.first_section.description": "Nous proposons différents modèles de camions d'occasion, selon vos besoins. Nous sommes à votre disposition pour vous conseiller et vous aider à choisir le véhicule qui vous convient le mieux.",
+  "page.home.first_section.button": "Prendre rendez-vous",
+
+  "page.home.second_section.title": "Acheter une voiture d’occasion",
+  "page.home.second_section.description": "Les voitures d'occasions que nous proposons ont étés minutieusement vérifiées par nos experts. Nous sommes impatients de vous aider à trouver la voiture de vos rêves.",
+  "page.home.second_section.button": "Prendre rendez-vous"
 }

@@ -10,8 +10,12 @@
   "navigation.header.semi_remorque": "Semi-trailers",
   "navigation.header.tracteur_camion": "Tractor head",
 
-  "page.home.head.title": "Next.js i18n example",
-  "page.home.head.meta.description": "Next.js i18n example - English",
-  "page.home.title": "Welcome to <b>Next.js</b>",
-  "page.home.description": "You are currently viewing the homepage in English 🚀"
+  "page.home.title": "Your used vehicle adapted to your financial needs",
+  "page.home.first_section.title": "Buy a used truck",
+  "page.home.first_section.description": "We offer different models of used trucks, depending on your needs. We are at your disposal to advise you and help you choose the vehicle that suits you best.",
+  "page.home.first_section.button": "Make an appointment",
+
+  "page.home.second_section.title": "Buying a used car",
+  "page.home.second_section.description": "The used cars we offer have been thoroughly checked by our experts. We look forward to helping you find the car of your dreams.",
+  "page.home.second_section.button": "Make an appointment"
 }

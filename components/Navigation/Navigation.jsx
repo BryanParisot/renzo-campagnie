@@ -56,6 +56,7 @@ const Navigation = () => {
 
               {data_navigation.map((i) => (
                 <Disclosure.Button
+                  key={i.id}
                   as="a"
                   href={i.path}
                   className={
