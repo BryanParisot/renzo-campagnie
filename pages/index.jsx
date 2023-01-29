@@ -1,15 +1,24 @@
 import Link from "next/link";
 import { FormattedMessage } from "react-intl";
+import CallToAction from "../components/CallToActions/CallToAction";
 import HeaderWithImgTitle from "../components/Navigation/HeaderWithImgTitle";
 import ImgWithTxtLeft from "../components/Section/imgWithTxtLeft";
 import ImgWithTxtRight from "../components/Section/ImgWithTxtRight";
+import Partner from "../components/Section/Partner";
 
 export default function Home() {
   return (
     <div>
       <HeaderWithImgTitle title={<FormattedMessage id="page.home.title" />} />
 
-      <div class="mx-auto flex max-w-screen-xl flex-col space-y-12 px-8 xl:px-12">
+      <div className="mx-auto flex max-w-screen-xl flex-col space-y-12 px-8 xl:px-12">
+        <CallToAction
+          title={<FormattedMessage id="page.home.call_to_action_title" />}
+          subtitle={<FormattedMessage id="page.home.call_to_action_subtitle" />}
+          link="/announces"
+          button={<FormattedMessage id="page.home.call_to_action_button" />}
+        />
+
         <ImgWithTxtRight
           title={<FormattedMessage id="page.home.first_section.title" />}
           description={
@@ -24,6 +33,24 @@ export default function Home() {
             <FormattedMessage id="page.home.second_section.description" />
           }
           button={<FormattedMessage id="page.home.second_section.button" />}
+        />
+
+        <Partner title={<FormattedMessage id="page.home.partner.title" />} />
+
+        <ImgWithTxtRight
+          title={<FormattedMessage id="page.home.third_section.title" />}
+          description={
+            <FormattedMessage id="page.home.third_section.description" />
+          }
+          button={<FormattedMessage id="page.home.third_section.button" />}
+        />
+
+        <ImgWithTxtLeft
+          title={<FormattedMessage id="page.home.fourth_section.title" />}
+          description={
+            <FormattedMessage id="page.home.fourth_section.description" />
+          }
+          button={<FormattedMessage id="page.home.fourth_section.button" />}
         />
       </div>
 

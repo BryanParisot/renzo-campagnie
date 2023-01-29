@@ -39,7 +39,7 @@ const Navigation = () => {
                       className={
                         router.pathname == i.path
                           ? "inline-flex items-center border-b-2  border-secondary px-1 pt-1 text-sm font-medium text-gray-900"
-                          : "inline-flex items-center border-b-2  px-0.5 pt-1 text-sm font-medium text-gray-600"
+                          : "inline-flex items-center border-b-2  px-0.5 pt-1 text-[12px] font-medium text-gray-600"
                       }
                     >
                       {i.title}

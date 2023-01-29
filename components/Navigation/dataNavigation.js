@@ -2,6 +2,11 @@ import { FormattedMessage } from "react-intl";
 
 export const data_navigation = [
   {
+    id: 0,
+    title: <FormattedMessage id="navigation.header.home" />,
+    path: "/",
+  },
+  {
     id: 1,
     title: <FormattedMessage id="navigation.header.camion" />,
     path: "/camionette",
@@ -50,5 +55,23 @@ export const data_navigation = [
     id: 10,
     title: <FormattedMessage id="navigation.header.tracteur_camion" />,
     path: "/tracteur-de-camion",
+  },
+];
+
+export const legal_navigation = [
+  {
+    id: 1,
+    title: <FormattedMessage id="navigation.header.legal.mentions" />,
+    path: "/mentions-legales",
+  },
+  {
+    id: 2,
+    title: <FormattedMessage id="navigation.header.legal.conditons" />,
+    path: "/conditons-generales",
+  },
+  {
+    id: 3,
+    title: <FormattedMessage id="navigation.header.legal.protected" />,
+    path: "/protection-donnees",
   },
 ];
