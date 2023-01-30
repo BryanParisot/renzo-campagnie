@@ -67,11 +67,11 @@ export const legal_navigation = [
   {
     id: 2,
     title: <FormattedMessage id="navigation.header.legal.conditons" />,
-    path: "/conditons-generales",
+    path: "/conditions-generales",
   },
   {
     id: 3,
     title: <FormattedMessage id="navigation.header.legal.protected" />,
-    path: "/protection-donnees",
+    path: "/protection-des-donnees",
   },
 ];
