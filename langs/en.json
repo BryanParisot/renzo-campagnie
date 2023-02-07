@@ -9,7 +9,8 @@
   "navigation.header.poid_lourd": "Trucks",
   "navigation.header.remorque": "Trailers",
   "navigation.header.semi_remorque": "Semi-trailers",
-  "navigation.header.tracteur_camion": "Tractor head",
+  "navigation.header.tracteur_camion": "Tractor",
+  "navigation.header.button": "Contact us",
 
   "navigation.header.legal.mentions": "Legal Notice",
   "navigation.header.legal.conditons": "General condition",
@@ -22,19 +23,28 @@
   "page.home.title": "Your used vehicle adapted to your financial needs",
   "page.home.first_section.title": "Buy a used truck",
   "page.home.first_section.description": "We offer different models of used trucks, depending on your needs. We are at your disposal to advise you and help you choose the vehicle that suits you best.",
-  "page.home.first_section.button": "Make an appointment",
+  "page.home.first_section.button": "Our available trucks",
 
   "page.home.second_section.title": "Buying a used car",
   "page.home.second_section.description": "The used cars we offer have been thoroughly checked by our experts. We look forward to helping you find the car of your dreams.",
-  "page.home.second_section.button": "Make an appointment",
+  "page.home.second_section.button": "Our available cars",
 
   "page.home.third_section.title": "Buy a used van",
   "page.home.third_section.description": "Whether you are a professional or a private individual, we have the right truck for you. We offer trucks of all sizes, to meet all transportation needs.",
-  "page.home.third_section.button": "Make an appointment",
+  "page.home.third_section.button": "Our available vans",
 
   "page.home.fourth_section.title": "Buy a container",
   "page.home.fourth_section.description": "\"nom marque\" is the ideal place to find the right used container for all your storage or transportation needs. We offer a wide range of quality used containers that have been carefully selected for their durability.",
-  "page.home.fourth_section.button": "Make an appointment",
+  "page.home.fourth_section.button": "Our available containers",
 
-  "page.home.partner.title": "Our partners"
+  "page.home.partner.title": "Our partners",
+
+  "component.no_data.title": "Ads",
+  "component.no_data.subtitle": "no ads available for this section",
+  "component.no_data.description": "back to the home page",
+  "component.no_data.button": "Home page",
+
+  "footer.site_map": "Site map",
+  "footer.contact_details": "contact details",
+  "footer.legal": "Legals"
 }

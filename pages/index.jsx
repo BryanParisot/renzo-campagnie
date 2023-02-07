@@ -5,6 +5,10 @@ import HeaderWithImgTitle from "../components/Navigation/HeaderWithImgTitle";
 import ImgWithTxtLeft from "../components/Section/imgWithTxtLeft";
 import ImgWithTxtRight from "../components/Section/ImgWithTxtRight";
 import Partner from "../components/Section/Partner";
+import container from "../public/containers.jpg";
+import cars from "../public/cars.jpg";
+import utilitaire from "../public/utilitaires.jpg";
+import trucks from "../public/truck.jpg";
 
 export default function Home() {
   return (
@@ -25,6 +29,8 @@ export default function Home() {
             <FormattedMessage id="page.home.first_section.description" />
           }
           button={<FormattedMessage id="page.home.first_section.button" />}
+          image={trucks}
+          link="/poid-lourd"
         />
 
         <ImgWithTxtLeft
@@ -33,6 +39,8 @@ export default function Home() {
             <FormattedMessage id="page.home.second_section.description" />
           }
           button={<FormattedMessage id="page.home.second_section.button" />}
+          image={cars}
+          link="/voiture"
         />
 
         <Partner title={<FormattedMessage id="page.home.partner.title" />} />
@@ -43,6 +51,8 @@ export default function Home() {
             <FormattedMessage id="page.home.third_section.description" />
           }
           button={<FormattedMessage id="page.home.third_section.button" />}
+          image={utilitaire}
+          link="/utilitaires"
         />
 
         <ImgWithTxtLeft
@@ -51,6 +61,8 @@ export default function Home() {
             <FormattedMessage id="page.home.fourth_section.description" />
           }
           button={<FormattedMessage id="page.home.fourth_section.button" />}
+          image={container}
+          link="/container"
         />
       </div>
 

@@ -9,7 +9,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const Navigation = () => {
+const Navigation = ({ button, link }) => {
   const router = useRouter();
   return (
     <Disclosure as="nav" className="bg-white shadow">
@@ -46,6 +46,15 @@ const Navigation = () => {
                     </Link>
                   ))}
                 </div>
+              </div>
+              <div className="flex items-center justify-center">
+                {" "}
+                <Link
+                  href={link}
+                  className="inline-flex items-center rounded-md border border-transparent bg-primary bg-opacity-80 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-primary focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                >
+                  {button}{" "}
+                </Link>{" "}
               </div>
             </div>
           </div>

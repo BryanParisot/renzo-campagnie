@@ -1,7 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { data_navigation } from "../Navigation/dataNavigation";
 import { legal_navigation } from "../Navigation/dataNavigation";
+import logo from "../../public/logos/logo_carre.jpg";
+import { FormattedMessage } from "react-intl";
 
 const Footer = () => {
   return (
@@ -15,7 +18,7 @@ const Footer = () => {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-base font-medium text-gray-900">
-                  Plan du site
+                  <FormattedMessage id="footer.site_map" />
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   {data_navigation.map((i) => (
@@ -29,14 +32,17 @@ const Footer = () => {
               </div>
               <div className="mt-12 md:mt-0">
                 <h3 className="text-base font-medium text-gray-900">
-                  Coordonnées
+                  <FormattedMessage id="footer.contact_details" />
                 </h3>
                 <ul role="list" className="mt-4 space-y-4"></ul>
               </div>
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div className="mt-12 md:mt-0">
-                <h3 className="text-base font-medium text-gray-900">Legal</h3>
+                <h3 className="text-base font-medium text-gray-900">
+                  {" "}
+                  <FormattedMessage id="footer.legal" />
+                </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   {legal_navigation.map((i) => (
                     <Link
@@ -50,6 +56,9 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
+          </div>
+          <div className="flex items-center justify-center">
+            <Image src={logo} alt="logo footer" height={200} width={200} />
           </div>
         </div>
         <div className="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">

@@ -9,7 +9,8 @@
   "navigation.header.poid_lourd": "Camions",
   "navigation.header.remorque": "Remorques",
   "navigation.header.semi_remorque": "Semi-remorques",
-  "navigation.header.tracteur_camion": "Tracteur de camions",
+  "navigation.header.tracteur_camion": "Tracteur",
+  "navigation.header.button": "Contactez nous",
 
   "navigation.header.legal.mentions": "Mentions légales",
   "navigation.header.legal.conditons": "Conditons générales",
@@ -22,19 +23,28 @@
   "page.home.title": "Votre véhicule d’occasion adapté à vos besoins financiers",
   "page.home.first_section.title": "Acheter un camion d’occasion",
   "page.home.first_section.description": "Nous proposons différents modèles de camions d'occasion, selon vos besoins. Nous sommes à votre disposition pour vous conseiller et vous aider à choisir le véhicule qui vous convient le mieux.",
-  "page.home.first_section.button": "Prendre rendez-vous",
+  "page.home.first_section.button": "Nos camions disponibles",
 
   "page.home.second_section.title": "Acheter une voiture d’occasion",
   "page.home.second_section.description": "Les voitures d'occasions que nous proposons ont étés minutieusement vérifiées par nos experts. Nous sommes impatients de vous aider à trouver la voiture de vos rêves.",
-  "page.home.second_section.button": "Prendre rendez-vous",
+  "page.home.second_section.button": "Nos voitures disponibles",
 
   "page.home.third_section.title": "Acheter un utilitaire d’occasion",
   "page.home.third_section.description": "Que vous soyez professionnel ou particulier, nous avons le camion qui vous convient. Nous proposons des camions de toutes tailles, pour répondre à tous les besoins de transport. ",
-  "page.home.third_section.button": "Prendre rendez-vous",
+  "page.home.third_section.button": "Nos utilitaires disponibles",
 
   "page.home.fourth_section.title": "Acheter un conteneur",
   "page.home.fourth_section.description": "“nom marque” est le lieu idéal pour trouver le conteneur d'occasion qui répond à tous vos besoins de stockage ou de transport. Nous proposons une large gamme de conteneurs d'occasion de qualité, qui ont été soigneusement sélectionnés pour leur durabilité.",
-  "page.home.fourth_section.button": "Prendre rendez-vous",
+  "page.home.fourth_section.button": "Nos conteneurs disponibles",
 
-  "page.home.partner.title": "Nos partenaires"
+  "page.home.partner.title": "Nos partenaires",
+
+  "component.no_data.title": "Annonces",
+  "component.no_data.subtitle": "Pas d'annonce disponible pour cette rubrique",
+  "component.no_data.description": "Retour vers la page d'acceuil",
+  "component.no_data.button": "Accueil",
+
+  "footer.site_map": "Plan du site",
+  "footer.contact_details": "Plan du site",
+  "footer.legal": "Legales"
 }
