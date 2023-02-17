@@ -11,13 +11,13 @@ const Partner = ({ title }) => {
         </h2>
         <div className="mt-8 flex justify-center space-x-2 lg:mt-10">
           <div className="mt-4 flex h-full w-2/12 flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0">
-            <Image className=" object-cover" src={logo} alt="Logo" />
+            <Image className="rounded object-cover" src={logo} alt="Logo" />
           </div>
           <div className="mt-4 flex h-full w-2/12 flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0">
-            <Image className=" object-cover" src={logo} alt="Logo" />
+            <Image className="rounded object-cover" src={logo} alt="Logo" />
           </div>
           <div className="mt-4 flex h-full w-2/12 flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0">
-            <Image className=" object-cover" src={logo} alt="Logo" />
+            <Image className="rounded object-cover" src={logo} alt="Logo" />
           </div>
         </div>
       </div>

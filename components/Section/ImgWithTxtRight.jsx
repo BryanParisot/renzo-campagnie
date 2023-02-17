@@ -20,7 +20,7 @@ const ImgWithTxtRight = ({ title, description, button, image, link }) => {
           <span className="block">{description} </span>
           <Link
             href={link}
-            className="inline-flex items-center rounded-md border border-transparent bg-secondary bg-opacity-80 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+            className="inline-flex items-center rounded-md border border-transparent bg-primary bg-opacity-80 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-primary focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >
             {button}{" "}
           </Link>{" "}
