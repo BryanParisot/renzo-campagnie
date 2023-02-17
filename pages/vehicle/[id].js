@@ -21,73 +21,76 @@ export default function Vehicle({ vehicle }) {
 
   return (
     <div className="space-y-10 px-6 lg:px-64">
-      <Announce title={vehicle.name_vehicle} />
+      <Announce title={vehicle?.name_vehicle} />
       <div className="flex flex-wrap">
-        <LogoWithTitle title="Année-Modéle" subtitle={vehicle.years}>
+        <LogoWithTitle title="Année-Modéle" subtitle={vehicle?.years}>
           <BsCalendarDate />
         </LogoWithTitle>
 
-        <LogoWithTitle title="Carburant" subtitle={vehicle.energie}>
+        <LogoWithTitle title="Carburant" subtitle={vehicle?.energie}>
           <GiFuelTank />
         </LogoWithTitle>
 
-        <LogoWithTitle title="Puissance DIN" subtitle={vehicle.horse}>
+        <LogoWithTitle title="Puissance DIN" subtitle={vehicle?.horse}>
           <TbEngine />
         </LogoWithTitle>
 
-        <LogoWithTitle title="Puissance ficale" subtitle={vehicle.horse_fiscal}>
+        <LogoWithTitle
+          title="Puissance ficale"
+          subtitle={vehicle?.horse_fiscal}
+        >
           <TbEngine />
         </LogoWithTitle>
 
-        <LogoWithTitle title="couleur" subtitle={vehicle.color}>
+        <LogoWithTitle title="couleur" subtitle={vehicle?.color}>
           <AiOutlineBgColors />
         </LogoWithTitle>
 
-        <LogoWithTitle title="Kilometres" subtitle={vehicle.miles}>
+        <LogoWithTitle title="Kilometres" subtitle={vehicle?.miles}>
           <IoMdSpeedometer />
         </LogoWithTitle>
-        <LogoWithTitle title="Places" subtitle={vehicle.number_place}>
+        <LogoWithTitle title="Places" subtitle={vehicle?.number_place}>
           <GiCarSeat />
         </LogoWithTitle>
 
-        <LogoWithTitle title="Nombre de porte" subtitle={vehicle.number_doors}>
+        <LogoWithTitle title="Nombre de porte" subtitle={vehicle?.number_doors}>
           <GiCarDoor />
         </LogoWithTitle>
 
-        <LogoWithTitle title="Carosserie" subtitle={vehicle.vehicle_condition}>
+        <LogoWithTitle title="Carosserie" subtitle={vehicle?.vehicle_condition}>
           <AiFillCar />
         </LogoWithTitle>
 
-        <LogoWithTitle title="Intérieur" subtitle={vehicle.interior}>
+        <LogoWithTitle title="Intérieur" subtitle={vehicle?.interior}>
           <AiTwotoneStar />
         </LogoWithTitle>
 
-        <LogoWithTitle title="Pneus" subtitle={vehicle.tires}>
+        <LogoWithTitle title="Pneus" subtitle={vehicle?.tires}>
           <AiTwotoneStar />
         </LogoWithTitle>
 
-        <LogoWithTitle title="Boîte de vitesse" subtitle={vehicle.gear_box}>
+        <LogoWithTitle title="Boîte de vitesse" subtitle={vehicle?.gear_box}>
           <GiGearStickPattern />
         </LogoWithTitle>
 
-        <LogoWithTitle title="Etat du moteur" subtitle={vehicle.engine}>
+        <LogoWithTitle title="Etat du moteur" subtitle={vehicle?.engine}>
           <TbEngine />
         </LogoWithTitle>
 
-        <LogoWithTitle title="Fuites" subtitle={vehicle.leak}>
+        <LogoWithTitle title="Fuites" subtitle={vehicle?.leak}>
           <GiLeak />
         </LogoWithTitle>
 
         <LogoWithTitle
           title="Controle technique"
-          subtitle={vehicle.technical_control}
+          subtitle={vehicle?.technical_control}
         >
           <TbFileStar />
         </LogoWithTitle>
 
         <LogoWithTitle
           title="Carnet de suivui, entretient "
-          subtitle={vehicle.notebook}
+          subtitle={vehicle?.notebook}
         >
           <TbFileStar />
         </LogoWithTitle>
@@ -96,7 +99,7 @@ export default function Vehicle({ vehicle }) {
         <span className="text-lg font-semibold text-gray-900 ">
           Description
         </span>
-        <p>{vehicle.description}</p>
+        <p>{vehicle?.description}</p>
       </div>
       <div className="text-gray-700">
         <span className="text-lg font-semibold text-gray-900 ">A prévoir</span>
