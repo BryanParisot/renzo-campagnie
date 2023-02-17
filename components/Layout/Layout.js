@@ -1,7 +1,7 @@
 import React, { Children } from "react";
 import { FormattedMessage } from "react-intl";
-import Footer from "../footer/Footer";
-import Header from "../navigation/Header";
+import Footer from "../Footer/Footer";
+import Header from "../Navigation/Header";
 import Navigation from "../Navigation/Navigation";
 import SwitchLangues from "../Switch/SwitchLangues";
 
