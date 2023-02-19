@@ -2,7 +2,7 @@ import React from "react";
 import { BsCalendarDate } from "react-icons/bs";
 
 const LogoWithTitle = ({ children, title, subtitle }) => {
-  return (
+  return subtitle ? (
     <div className="mb-5 flex w-2/4 items-center xl:w-1/4">
       <div className=" mr-2 flex h-8 w-8 content-center items-center  justify-center rounded-full bg-gray-300">
         {children}
@@ -14,6 +14,8 @@ const LogoWithTitle = ({ children, title, subtitle }) => {
         </span>
       </div>
     </div>
+  ) : (
+    ""
   );
 };
 
