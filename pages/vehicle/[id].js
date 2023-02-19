@@ -107,16 +107,16 @@ export default function Vehicle({ vehicle }) {
           Lorem loremloremloremlorem loremloremlorem loremloremlorem loremlorem
         </p>
       </div>
-      <div className="flex justify-around px-3">
+      <div className="flex flex-col justify-around px-3 text-center lg:flex-row">
         <button
           type="button"
-          className="mb-10 inline-flex items-center rounded-md border border-transparent bg-secondary bg-opacity-80 px-10 py-4 text-xl font-medium text-white shadow-sm hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          className="mb-10 inline-flex items-center justify-center rounded-md border border-transparent bg-secondary bg-opacity-80 px-10 py-4 text-xl font-medium text-white shadow-sm hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
         >
           Nous appeler
         </button>
         <button
           type="button"
-          className="mb-10 inline-flex items-center rounded-md border border-transparent bg-secondary bg-opacity-80 px-10 py-4 text-xl font-medium text-white shadow-sm hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          className="mb-10 inline-flex items-center justify-center rounded-md border border-transparent bg-secondary bg-opacity-80 px-10 py-4 text-xl font-medium text-white shadow-sm hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
         >
           Envoyer un message
         </button>
