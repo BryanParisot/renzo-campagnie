@@ -8,7 +8,7 @@ import Partner from "../components/Section/Partner";
 import container from "../public/containers.jpg";
 import cars from "../public/cars.jpg";
 import utilitaire from "../public/utilitaires.jpg";
-import trucks from "../public/truck.jpg";
+import trucks from "../public/camion.jpeg";
 
 export default function Home() {
   return (
