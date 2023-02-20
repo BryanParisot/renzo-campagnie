@@ -32,11 +32,6 @@ export const data_navigation = [
     path: "/engin-agricole",
   },
   {
-    id: 10,
-    title: <FormattedMessage id="navigation.header.tracteur_camion" />,
-    path: "/tracteur-de-camion",
-  },
-  {
     id: 6,
     title: <FormattedMessage id="navigation.header.benne" />,
     path: "/benne",
