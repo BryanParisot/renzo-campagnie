@@ -228,5 +228,6 @@ export async function getStaticProps({ params: { id } }) {
         notebook,
       },
     },
+    revalidate: 1,
   };
 }

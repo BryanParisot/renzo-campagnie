@@ -57,5 +57,6 @@ export async function getStaticProps() {
     props: {
       vehicle: response.results,
     },
+    revalidate: 1,
   };
 }
